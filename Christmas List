@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Parallax Website</title>
+        <meta name="keywords" content="Parallax" "Website">
+        <meta name="date" content="Nov 15 2022">
+        <meta name="author" content="Everette Pettigrew">
+        <meta name="viewport" content="width-device, width, initial-scale = 1">
+</head> 
+
+<style>
+    .parallax{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Grey_squirrel_%28Sciurus_carolinensis%29_02.jpg/640px-Grey_squirrel_%28Sciurus_carolinensis%29_02.jpg);  
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+          } 
+
+    .parallax2{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2_Indian_squirrel_gazing.jpg/640px-2_Indian_squirrel_gazing.jpg); 
+        
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax3{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Fruit_Loop_-_Flickr_-_eschipul.jpg/640px-Fruit_Loop_-_Flickr_-_eschipul.jpg); 
+        
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+    
+<body>
+    <p1> This is just some random text for the website </p1>
+
+    <div class="parallax"></div>
+
+    <div style="height: 300px; background-color: skyblue;font-size: 30">
+    Add your contact information to learn more about squirrels!
+    <form>
+    <label for="firstname">First Name: </label>
+        <br>
+    <input type="text" id="firstname" name="firstname">
+        <br>
+     <label for="lastname">Last Name: </label>
+        <br>
+    <input type="text" id="lastname" name="lastname">
+        <br>
+      <label for="email">Email: </label>
+        <br>
+    <input type="text" id="email" name="email">
+        <br>  
+    </form>
+    </div>
+    
+     <div class="parallax2"></div>
+    <div style="height: 300px; background-color: skyblue;font-size: 30">
+    Squirrels are always watching! Be aware!
+    </div>
+    
+    <div class="parallax3"></div>
+    <div style="height: 300px; background-color: skyblue;font-size: 30">
+    Please rate the pictures from above! 1=Most Favorite while 3=Least Favorite
+        <form>
+    <label for="picture1">Picture 1: </label>
+        <br>
+    <input type="number" id="picture1" name="picture1" min="1" max="3">
+        <br>
+     <label for="picture2">Picture 2: </label>
+        <br>
+    <input type="number" id="picture2" name="picture2" min="1" max="3">
+        <br>
+      <label for="picture3">Picture 3: </label>
+        <br>
+    <input type="number" id="picture3" name="picture3" min="1" max="3">
+        <br>  
+    </form>
+    </div>
+    
+</body>   
+</html>
